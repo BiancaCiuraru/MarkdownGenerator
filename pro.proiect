@@ -1,0 +1,87 @@
+header1: "Limbaje de programare" :header1 *br*
+"Un " bold "limbaj de programare" /bold " este un set bine definit de expresii si reguli (sau tehnici) valide de formulare a instructiunilor pentru un computer. Un limbaj de programare are definite un " italic "set de reguli sintactice si semantice" /italic ". El da posibilitatea programatorului sa specifice in mod exact si amanuntit actiunile pe care trebuie sa le execute calculatorul, in ce ordine si cu ce date. Specificarea consta practic in intocmirea/scrierea programelor necesare ('programare')." *br*
+
+header2: "Categorii" :header2
+
+ItemO: "Dupa nivelul de abstractizare (care printre altele corespunde cu usurinta cu care programele pot fi citite si intelese de catre programatori)"
+	ItemO: "limbaje de generatia intaia: limbajele cod-masina (limbaje masina)" :ItemO
+	ItemO: "limbaje de generatia a doua: limbajele de asamblare" :ItemO
+	ItemO: "limbaje de generatia a treia: limbaje de nivel inalt, cum ar fi C-ul (si toate derivatele sale: " 
+Link: title1: "C++" :title1 {"https://ro.wikipedia.org/wiki/C%2B%2B" title2: "C++" :title2} "," 
+Link: title1: "Java" :title1 {"https://ro.wikipedia.org/wiki/Java_(limbaj_de_programare)" title2: "Java" :title2} ", ...), Pascal, Fortran s.a." :ItemO
+	ItemO: "limbaje de generatia a patra: limbajele neprocedurale, orientate pe rezolvarea unei anumite clase de probleme: SQL s.a." :ItemO
+	ItemO: "limbaje de generatia a cincea: limbaje utilizate in domenii precum logica fuzzy, inteligenta artificiala sau si retelele neuronale: Prolog, LISP s.a." :ItemO
+:ItemO 
+*br*
+
+ItemO: "După vechime" :ItemO
+	ItemO: "Limbaje din secolul XX; ex. LISP si FORTRAN din anii '50" :ItemO
+	ItemO: "Limbaje din ultimul deceniu al secolului XX pana in prezent; ex. Haskell, Ruby, Brainfuck, limbajul D" :ItemO
+:ItemO
+*br* *empty* *br*
+
+header6: "Exemple de cod C++" :header6 *br*
+
+Image: title1: "C++" :title1 {"https://cdn-images-1.medium.com/max/1200/1*YU6BvZKvxivoEnvqxeG5rw.png" title2: "C++" :title2} *br*
+bold Link: title1: "C++" :title1 {"https://blog.sourcerer.io/building-a-website-with-c-db942c801aee" title2: "Despre C++" :title2} /bold*br*
+
+$ "for(int i=1; i<=n; i++)" *br*
+$ "{" *br*
+$	"if (!(i%2))" *br*
+$	"{" *br*
+$		"z=1/(float)i;" *br*
+$		"p=p*z;" *br*
+$	"}" *br* *empty* *br*
+$	
+$	"else p=p*i;" *br*
+$ "}"
+*br* *empty* *br*
+header2: "Executie" :header2 *br*
+
+"Pentru executarea unui program scris intr-un limbaj oarecare, exista, in principiu, doua abordari: compilare sau interpretare. La compilare, compilatorul transforma programul-sursa in totalitatea sa intr-un program echivalent scris in limbaj masina, care apoi este executat. La interpretare, interpretorul ia prima instructiune din programul-sursa, o transforma in limbaj masina si o executa; apoi trece la instructiunea doua si repeta aceleasi actiuni s.a.m.d."
+*br* *empty* *br*
+"Unele limbaje se preteaza bine la compilare; de exemplu limbajele clasice: Pascal, Fortran, C. Altele sunt cu predilectie interpretate, de ex. BASIC, PHP, SQL. Multe limbaje moderne combina compilarea cu interpretarea: codul sursa este compilat intr-un limbaj binar numit "
+<"bytecode"> ", care la rulare este interpretat de catre o masina virtuala. De remarcat faptul ca unele interpretoare de limbaje pot folosi compilatoare asa-numite " <"just-in-time"> ", care transforma codul in limbaj masina chiar inaintea executarii."
+
+header2: "Lista de limbaje de programare" :header2 *br*
+
+header4: "Limbaje generale" :header4 *br*
+"Limbaje care pot fi folosite (cel putin teoretic) la rezolvarea oricarui tip de probleme:" *br*
+
+ItemU: "BASIC (QuickBasic, GW-BASIC, Visual Basic)" :ItemU
+ItemU: "C" :ItemU
+ItemU: "C++" :ItemU
+ItemU: "C#" :ItemU
+ItemU: "Java" :ItemU
+ItemU: "JavaScript" :ItemU
+ItemU: "Pascal (si ObjectPascal, folosit de Borland Delphi)" :ItemU
+ItemU: "PHP" :ItemU
+ItemU: "Python" :ItemU
+ItemU: "Ruby" :ItemU
+ItemU: "MATLAB" :ItemU
+
+header4: "Limbaje specifice" :header4 *br*
+"Limbaje cu un scop bine definit - de obicei interactiunea cu un anumit program sau sistem."
+
+ItemU: "ActionScript - limbajul de scripting folosit de Macromedia Flash" :ItemU
+ItemU: "ASP (si ASP.NET) - pentru scripting web" :ItemU
+ItemU: "FoxPro (FoxPro, Visual FoxPro)" :ItemU
+ItemU: "MIVA SCRIPT" :ItemU
+ItemU: "SQL - pentru interactiunea cu bazele de date relationale" :ItemU
+
+*br* *empty* *br*
+
+"Note" *br*
+=> Link: title1: :title1 {"http://www.computerhope.com/jargon/p/proglang.htm"} " Limbaj de programare"
+=> Link: title1: "„High Level Language”" :title1 {"https://www.webopedia.com/TERM/H/high_level_language.html"} "." 
+=>> "Is SQL a legitimate programming language? "
+Link: title1: :title1 {"https://www.techrepublic.com/article/is-sql-a-legitimate-programming-language/"}
+
+*br* *empty* *br*
+
+||"Programare"|| || *br*
+||    <->     || <-> || *br*
+||"Paradigme"||"Programare declarativa, Programare functionala, Programare imperativa, Programare logica, Programarea orientata pe aspecte, Programare orientata eveniment, Programare orientata pe obiecte, Programare procedurala, Programare structurata"|| *br*
+||"Concepte"||"Algoritm, Calcul paralel, Constanta, Data, Fir de execuaie, Limbaj de programare, Metadata, Monitor (sincronizare), Program, Recursivitate, Structura de date, Variabila" || *br*
+||"Unelte"||"Compilator, Depanator, Editor de text"|| *br*
+*br*
